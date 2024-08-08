@@ -8,7 +8,6 @@ def main():
           1. ADD
           2. SUBTRACT
           3. MULTIPLY
-          4. DIVIDE
           ''')
     
     user_input = input('select function')
@@ -21,8 +20,6 @@ def main():
         result = do_subtraction(a, b)
     elif user_input == '3':
         result = do_multiplication(a, b)
-    elif user_input == '4':
-        result = do_division(a, b)
         
     print('Result:', result)
     
